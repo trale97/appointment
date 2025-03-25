@@ -72,8 +72,14 @@ language:
 # Introduction
 This is an introduction
 
-# Method 
-Trying out diagram with Graphviz and mermaid but it doesn't work with pdf file...
+# Method
+
+```{r, include=FALSE}
+library(qgraph)
+data(big5)
+```
 
 # Results
-For results
+```{r}
+colnames(big5)
+```
