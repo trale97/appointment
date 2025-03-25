@@ -66,6 +66,8 @@ language:
   email: "Email"
   title-block-author-note: "Author Note"
   title-block-correspondence-note: "Correspondence concerning this article should be addressed to"
+  
+notebook-links: false
 ---
 
 \linenumbers
