@@ -7,12 +7,14 @@ execute:
 format:
   html:
     toc: true
+    notebook-links: false
     comments:
       hypothesis: true
     number-sections: true
   docx: default
   jats: default
-  apaquarto-pdf: 
+  apaquarto-pdf:
+    notebook-links: false
     include-in-header:
       text: |
         \usepackage[nolongtablepatch]{lineno}
